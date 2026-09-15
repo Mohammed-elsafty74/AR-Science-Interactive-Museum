@@ -1,255 +1,192 @@
 <div align="center">
 
 # 🏛️ Interactive AR Science Museum
+
 ### المتحف العلمي التفاعلي
 
+**Explore the history of science through Augmented Reality.**
 
-> An educational Augmented Reality application that brings five historical scientific instruments to life as interactive 3D models — simply point your camera at the target image and explore.
+Point your camera at a target image and bring historical scientific instruments to life as interactive 3D models.
 
----
+<br>
 
-![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS-black?style=for-the-badge&logo=unity)
-![Vuforia](https://img.shields.io/badge/Vuforia-Engine%2010.x-blue?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
-![Language](https://img.shields.io/badge/Language-C%23-purple?style=for-the-badge&logo=csharp)
-![License](https://img.shields.io/badge/License-Academic-orange?style=for-the-badge)
+[![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS-black?style=for-the-badge&logo=unity)](https://unity.com/)
+[![Vuforia](https://img.shields.io/badge/Vuforia-Engine%2010.x-blue?style=for-the-badge)](https://developer.vuforia.com/)
+[![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://www.android.com/)
+[![Language](https://img.shields.io/badge/Language-C%23-purple?style=for-the-badge&logo=csharp)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![License](https://img.shields.io/badge/License-Academic-orange?style=for-the-badge)](#-license)
 
-</div>
+<br>
 
----
+### 🎬 Demo
 
-## 📖 Table of Contents
-
-- [About The Project](#-about-the-project)
-- [Demo](#-demo)
-- [Screenshots](#-screenshots)
-- [Features](#-features)
-- [Scientific Instruments](#-scientific-instruments)
-- [How It Works](#-how-it-works)
-- [Getting Started](#-getting-started)
-- [Booklet](#-booklet)
-- [How To Use](#-how-to-use)
-- [Project Structure](#-project-structure)
-- [Built With](#-built-with)
-- [Team](#-team)
-
----
-
-## 🔬 About The Project
-
-**Interactive AR Science Museum** is an educational Augmented Reality Android application developed as part of an AR & VR course project. The app transforms a printed scientific booklet into an immersive AR experience.
-
-Users point their smartphone camera at one of five printed target images, and a fully interactive 3D model of the corresponding scientific instrument appears in real space above the image — complete with historical information about the instrument.
-
-The goal is to bridge traditional printed educational material with modern AR technology, making learning about the history of science more engaging and memorable.
-
----
-
-## 🎬 Demo
-
-> 📹 **Watch the full demo video below:**
-
-<!-- REPLACE the URL below with your actual demo video link (YouTube, Google Drive, etc.) -->
-[![Demo Video](https://img.shields.io/badge/▶_Watch_Demo-Google_Drive-green?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1MSbuA1AEU16gQxsw1eTbuE_LKB-JfMeJ/view?usp=sharing)
-<!-- Optional: embed a GIF preview -->
-<!-- <img src="YOUR_GIF_URL_HERE" alt="Demo GIF" width="400"/> -->
-
----
-
-## 📸 Screenshots
-
-> *(Replace the placeholder links below with your actual screenshots)*
-
-<div align="center">
-
-| Start Screen | Vintage Phone AR | Camera AR |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/startscreen.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Vintage Phone.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Camera.jpeg" width="200"/> |
-| *Vintage-themed main menu* | *Vintage Phone* | *Camera* |
-
-| Microscope AR | Balance Scale AR | Gramophone AR |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Microscope.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Scaler.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Gramophone.jpeg" width="200"/> |
-| *Optical Microscope* | *Balance Scale* | *Gramophone* |
+[![Watch Demo](https://img.shields.io/badge/▶_Watch_Full_Demo-Google_Drive-success?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1MSbuA1AEU16gQxsw1eTbuE_LKB-JfMeJ/view?usp=sharing)
 
 </div>
 
 ---
 
-## ✨ Features
+# 📖 Table of Contents
 
-- 🎯 **Image Target Recognition** — Vuforia-powered detection of 5 unique printed targets
-- 🗿 **Interactive 3D Models** — Fully rendered models appear in real AR space above each target
-- 👆 **Touch Interaction** — Drag with one finger to rotate any model 360° in all directions
-- 🌀 **Inertia Effect** — Models continue spinning smoothly after the finger is released
-- 📋 **Info Panels** — Each model displays its name and historical/scientific information
-- 🏛️ **Vintage UI Design** — Parchment-style theme consistent with the scientific museum aesthetic
-- ❓ **Help System** — Built-in animated How-To-Use panel on the start screen
-- 📱 **Fixed Portrait Mode** — Stable UI layout locked to portrait orientation
+- [🔬 About The Project](#-about-the-project)
+- [🎯 Project Goal](#-project-goal)
+- [✨ Features](#-features)
+- [🔭 Scientific Instruments](#-scientific-instruments)
+- [⚙️ How It Works](#️-how-it-works)
+- [📸 Screenshots](#-screenshots)
+- [📱 How To Use](#-how-to-use)
+- [🚀 Getting Started](#-getting-started)
+- [📘 AR Booklet](#-ar-booklet)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Built With](#️-built-with)
+- [🎓 Course Information](#-course-information)
+- [👥 Team](#-team)
+- [📄 License](#-license)
 
 ---
 
-## 🔭 Scientific Instruments
+# 🔬 About The Project
+
+**Interactive AR Science Museum** is an educational **Augmented Reality Android application** developed as part of an **AR & VR course project**.
+
+The application transforms a traditional scientific booklet into an interactive digital museum.
+
+Instead of simply reading about historical scientific instruments, users can:
+
+- 📷 Scan printed target images.
+- 🗿 View the corresponding 3D model in Augmented Reality.
+- 👆 Rotate the model using touch gestures.
+- 📚 Read historical and scientific information.
+- 🔎 Explore the instrument from different angles.
+
+The project combines **education, historical science, 3D visualization, and Augmented Reality** into one interactive experience.
+
+---
+
+# 🎯 Project Goal
+
+The main goal of the project is to make learning about the **history of science and scientific instruments** more engaging and memorable.
+
+Traditional educational materials mainly depend on:
+
+> 📖 Text + Images
+
+This project adds:
+
+> 📖 Text + Images + 🗿 3D Models + 📱 Augmented Reality
+
+By pointing a smartphone camera at a target image, the application recognizes the image and displays the corresponding scientific instrument as a 3D AR object.
+
+---
+
+# ✨ Features
+
+### 🎯 Image Target Recognition
+
+Powered by **Vuforia Engine**, the application recognizes five different scientific instrument target images.
+
+### 🗿 Interactive 3D Models
+
+Each target activates a corresponding 3D model that appears directly above the target image.
+
+### 👆 Touch-Based Rotation
+
+Users can drag their finger across the screen to rotate the 3D model and inspect it from different angles.
+
+### 🌀 Inertia Effect
+
+The model continues rotating smoothly for a short time after the user releases their finger, creating a more natural interaction.
+
+### 📋 Information Panels
+
+Each scientific instrument includes an information panel containing its name and historical/scientific information.
+
+### 🏛️ Vintage Museum UI
+
+The interface uses a vintage-inspired visual style to match the historical theme of the project.
+
+### ❓ Built-in Help System
+
+A dedicated animated help panel explains how to use the AR experience.
+
+### 📱 Portrait Mode
+
+The application is optimized for a fixed portrait orientation to provide a stable mobile UI.
+
+---
+
+# 🔭 Scientific Instruments
 
 | # | Instrument | Arabic Name | Key Fact |
-|---|-----------|-------------|----------|
-| 1 | ⚖️ Balance Scale | الميزان الحساس | Accuracy up to 0.001g — based on Archimedes' lever law |
-| 2 | ☎️ Vintage Telephone | الهاتف الثابت | Invented by Graham Bell in 1876 |
-| 3 | 🔬 Optical Microscope | الميكروسكوب الضوئي | Magnifies up to 1000× — uses light refraction |
-| 4 | 📷 Photographic Camera | الكاميرا الفوتوغرافية | First camera invented in 1816 |
-| 5 | 🎵 Gramophone | الجرامافون | Invented by Emile Berliner in 1887 |
+|---|---|---|---|
+| ⚖️ 1 | **Balance Scale** | الميزان الحساس | Accuracy up to 0.001g |
+| ☎️ 2 | **Vintage Telephone** | الهاتف الثابت | Invented by Alexander Graham Bell in 1876 |
+| 🔬 3 | **Optical Microscope** | الميكروسكوب الضوئي | Can provide magnification up to 1000× |
+| 📷 4 | **Photographic Camera** | الكاميرا الفوتوغرافية | Early camera development dates back to the 19th century |
+| 🎵 5 | **Gramophone** | الجرامافون | Invented by Emile Berliner in 1887 |
 
 ---
 
-## ⚙️ How It Works
+# ⚙️ How It Works
 
-```
-[Launch App]
-     │
-     ▼
-[Start Screen]
-     │                    │
-[Tap ? Help]         [Tap START]
-     │                    │
-[Show Instructions]  [Activate AR Camera]
+The application follows a simple AR pipeline:
+
+```text
+                 ┌─────────────────┐
+                 │   Launch App    │
+                 └────────┬────────┘
                           │
-                    [Point Camera at Target]
+                          ▼
+                 ┌─────────────────┐
+                 │   Start Screen  │
+                 └────────┬────────┘
                           │
-                  [Vuforia Detects Image]
+                     Tap START
                           │
-                    [3D Model Appears]
-                    [Info Panel Shows]
+                          ▼
+                 ┌─────────────────┐
+                 │   AR Camera     │
+                 └────────┬────────┘
                           │
-                  [User Rotates with Touch]
+                          ▼
+                 ┌─────────────────┐
+                 │ Scan Target     │
+                 │     Image       │
+                 └────────┬────────┘
                           │
-                  [Camera Moves Away]
+                          ▼
+                 ┌─────────────────┐
+                 │    Vuforia      │
+                 │ Image Detection │
+                 └────────┬────────┘
                           │
-                  [Model Resets & Hides]
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Android device running **Android 7.0 (API 24)** or higher
-- Rear-facing camera
-- Minimum **2GB RAM**
-
-### Installation
-
-**Option 1 — Direct APK Install:**
-1. Download the latest APK from the [Releases](https://github.com/Mohanad06/AR-Science-Museum/releases/tag/v1.0) page
-2. Enable *Install from Unknown Sources* on your Android device
-3. Open the APK file and install
-4. Grant camera permission on first launch
-
-**Option 2 — Build from Source:**
-```bash
-# Clone the repository
-git clone https://github.com/Mohanad06/AR-Science-Museum.git
-
-# Open in Unity 2022.3 LTS
-# File → Build Settings → Android → Build And Run
-```
-
-> **Requirements for building:** Unity 2022.3 LTS, Vuforia Engine 10.x, Android SDK (API 24+), IL2CPP backend
-
----
-## 📘 BookLet
-
-> يحتوي على جميع صور الـ Image Targets المستخدمة في التطبيق
-
-<div align="center">
-
-<a href="https://github.com/Mohanad06/AR-Science-Museum/raw/main/BookLet/BookLet.pdf">
-  <img src="https://img.shields.io/badge/📥_Download_Booklet-PDF-blue?style=for-the-badge" />
-</a>
-
-</div>
-
-> ⚠️ You must download or open the booklet to use the AR features of the app.  
-> ⚠️ If the PDF preview does not load on GitHub, please download the file.
----
-
-## 📱 How To Use
-
-1. **Download** the AR Booklet from the link above
-2. **Print** the booklet (or open it on another screen)
-1. **Open** the app on your Android device
-2. **Tap START** on the main screen to activate the camera
-3. **Print** the target images from the booklet (or display on screen)
-4. **Point** your camera at any target image from the booklet — keep it flat and well-lit
-5. **Watch** the 3D model appear above the image in real space
-6. **Drag** with one finger to rotate the model in any direction
-7. **Read** the information panel for historical details
-8. **Move away** from the image to dismiss the model
-
-> 💡 **Tips:**
-> - Use good lighting — avoid dark rooms or direct sunlight on the page
-> - Keep the target image flat on a stable surface
-> - Maintain a distance of **20–40 cm** from the camera to the target
-
----
-
-## 📁 Project Structure
-
-```
-AR-Science-Museum/
-│
-├── Assets/
-│   ├── Scripts/
-│   │   ├── StartButton.cs           # Scene transition & AR activation
-│   │   ├── HelpPanelController.cs   # Help panel with fade animation
-│   │   ├── ProductInfo.cs           # Vuforia tracking & UI display
-│   │   └── ModelTouchController.cs  # Touch rotation with inertia
-│   │
-│   ├── Models/
-│   │   ├── Scale/                   # Balance Scale 3D model
-│   │   ├── Phone/                   # Vintage Telephone 3D model
-│   │   ├── Microscope/              # Optical Microscope 3D model
-│   │   ├── Camera/                  # Photographic Camera 3D model
-│   │   └── Gramophone/              # Gramophone 3D model
-│   │
-│   ├── Scenes/
-│   │   ├── StartScene.unity         # Main menu scene
-│   │   └── ARScene.unity            # Core AR experience scene
-│   │
-│   ├── Images/                      # Vuforia target images
-│   ├── Textures/                    # UI and background textures
-│   └── StreamingAssets/Vuforia/     # Vuforia target database
-│
-├── Packages/                        # Unity package dependencies
-├── ProjectSettings/                 # Unity project configuration
-└── README.md
-```
-
----
-
-## 🛠️ Built With
-
-| Technology | Purpose |
-|-----------|---------|
-| [Unity 2022.3 LTS](https://unity.com) | Game engine & AR scene management |
-| [Vuforia Engine 10.x](https://developer.vuforia.com) | Image target recognition & AR tracking |
-| [TextMeshPro](https://docs.unity3d.com/Manual/com.unity.textmeshpro.html) | High-quality UI text rendering |
-| C# | Scripting & game logic |
-| Android SDK (API 24+) | Android build target |
-
----
-
-## 📋 Course Information
-
-> This project was developed as part of the **AR & VR** course.
-> **Year:** 2026
-
----
-
-<div align="center">
-
-**Made with ❤️ using Unity & Vuforia**
-
-*Interactive AR Science Museum — المتحف العلمي التفاعلي*
-
-</div>
+                          ▼
+                 ┌─────────────────┐
+                 │  Target Found   │
+                 └────────┬────────┘
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ 3D Model Appears│
+                 └────────┬────────┘
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │  Info Panel     │
+                 └────────┬────────┘
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ Touch Rotation  │
+                 └────────┬────────┘
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ Target Lost     │
+                 └────────┬────────┘
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ Model Hides /   │
+                 │      Resets     │
+                 └─────────────────┘
