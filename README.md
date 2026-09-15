@@ -100,24 +100,21 @@ The application currently includes **five scientific instruments**:
 | 5 | 📀 Gramophone          | A historical sound reproduction device that used discs to record and play audio.                      |
 
 ---
-
 ## 📸 Screenshots
 
 <div align="center">
 
-|                                                                  Start Screen                                                                 |                                                                  Vintage Phone AR                                                                 |                                                                 Camera AR                                                                |
-| :-------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/Mohammed-elsafty74/AR-Science-Interactive-Museum/main/screenshots/startscreen.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohammed-elsafty74/AR-Science-Interactive-Museum/main/screenshots/Vintage%20Phone.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohammed-elsafty74/AR-Science-Interactive-Museum/main/screenshots/Camera.jpeg" width="200"/> |
-|                                                           *Vintage-themed main menu*                                                          |                                                              *Vintage Phone AR Model*                                                             |                                                             *Camera AR Model*                                                            |
+| Start Screen | Vintage Phone AR | Camera AR |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/startscreen.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Vintage%20Phone.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Camera.jpeg" width="200"/> |
+| *Vintage-themed main menu* | *Vintage Phone AR Model* | *Camera AR Model* |
 
-|                                                                 Microscope AR                                                                |                                                             Balance Scale AR                                                             |                                                                 Gramophone AR                                                                |
-| :------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/Mohammed-elsafty74/AR-Science-Interactive-Museum/main/screenshots/Microscope.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohammed-elsafty74/AR-Science-Interactive-Museum/main/screenshots/Scaler.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohammed-elsafty74/AR-Science-Interactive-Museum/main/screenshots/Gramophone.jpeg" width="200"/> |
-|                                                         *Optical Microscope AR Model*                                                        |                                                         *Balance Scale AR Model*                                                         |                                                             *Gramophone AR Model*                                                            |
+| Microscope AR | Balance Scale AR | Gramophone AR |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Microscope.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Scaler.jpeg" width="200"/> | <img src="https://raw.githubusercontent.com/Mohanad06/AR-Science-Museum/main/screenshots/Gramophone.jpeg" width="200"/> |
+| *Optical Microscope AR Model* | *Balance Scale AR Model* | *Gramophone AR Model* |
 
 </div>
-
----
 
 # 🧪 How It Works
 
